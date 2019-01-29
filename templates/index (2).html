@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<Title>Home</Title>
+<link rel="stylesheet" href= "{{url_for('static', filename='bootstrap.min.css')}}">
+
+<script src="{{url_for('static', filename='jquery-slim.min.js')}}" ></script>
+<script src="{{url_for('static', filename='popper.min.js')}}" ></script>
+<script src="{{url_for('static', filename='bootstrap.min.js')}}" ></script>
+
+<nav class="navbar navbar-light bg-light" style="background-color: #e3f2fd;">
+  <span class="navbar-brand mb-0 h1">Navbar</span>
+</nav>
+
+<nav class="navbar navbar-dark bg-dark justify-content-between" style="background-color: #e3f2fd;">
+  <span class="navbar-brand mb-0 h1">Q n A</span>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<div class="container">
+  <!-- Content here -->
+<div class="row">
+<div class="col-9">
+
+  <h4>Hello Since Bootstrap is developed to be mobile first, we use a handful of media queries to create sensible breakpoints for our layouts and interfaces. These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.
+
+Bootstrap primarily uses the following media query ranges—or breakpoints—in our source Sass files for our layout, grid system, and components.</h4>
+
+<div class="text-center">
+  <img src="{{url_for('pcs', filename='10279_049.jpg')}}" class="img-thumbnail"  alt="Image">
+</div>
+
+<div class="text-center">
+  <img src="{{url_for('pcs', filename='10279_095.jpg')}}" class="img-thumbnail"  alt="Image">
+</div>
+
+<div class="text-center">
+  <img src="{{url_for('pcs', filename='10279_100.jpg')}}" class="img-thumbnail"  alt="Image">
+</div>
+
+<div class="text-center">
+  <img src="{{url_for('pcs', filename='10279_135.jpg')}}" class="img-thumbnail"  alt="Image">
+</div>
+
+<div class="text-center">
+  <img src="{{url_for('pcs', filename='10279_166.jpg')}}" class="img-thumbnail"  alt="Image">
+</div>
+
+
+
+<div class="container-fluid">
+
+<div class="row">
+<div class="col-md-auto">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{url_for('10279', filename='10279_171.jpg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-auto">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{url_for('10279', filename='10279_196.jpg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="col-md-auto">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{url_for('10279', filename='10279_199.jpg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="row">
+
+
+<div class="col-md-auto">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{url_for('10279', filename='10279_234.jpg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+  </div>
+</div>
+
+</div>
+
+
+<div class="col-md-auto">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{url_for('10279', filename='10279_252.jpg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<button class="btn btn-primary text-centre"  type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  >
+    Post a question
+  </button>
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+
+
+
+</div>
+
+<div class="col-3">
+<h2> recently asked questions </h2>
+<h4>Equal-width columns can be broken into multiple lines, but there was a Safari flexbox bug that prevented this from working without an explicit flex-basis or border. There are workarounds for older browser versions, but they shouldn’t be necessary if you’re up-to-date.</h4>
+
+</div>
+</div>
+</div>
+
+
+Nav bar with search button
+
+<nav class="navbar navbar-light bg-light justify-content-between" style="background-color: #e3f2fd;">
+  <a class="navbar-brand">Navbar</a>
+  <form class="form-inline" id="search" >
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+
+style="background-color: #e3f2fd;"
+
+
+</html>
